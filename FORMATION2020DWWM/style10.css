@@ -1,0 +1,7 @@
+li{
+
+   list-style-type: square;
+   list-style-position: inside;/*Modifier la positions d la puce*/
+  
+/*Désactive les puce*list-style: none;*/
+}

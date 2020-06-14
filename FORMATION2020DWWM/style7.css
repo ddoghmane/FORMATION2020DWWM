@@ -1,0 +1,12 @@
+div, span{
+
+    background: grey;
+    width: 50%;
+    margin: 50px;
+    height:100px;
+}
+span{
+    display: block;
+}
+
+/* Permet de changer l'affichage */
