@@ -1,0 +1,28 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+margin :0;
+padding:0;
+background-color:#111;
+
+    
+}
+.header{
+    background-color: #00000000;
+}
+.nav{
+    background-color :#FFDDCC;
+}
+.main{
+    background-color: #CCFFDD;
+}
+.aside{
+
+    background-color: #CCDDFF;
+
+}
+.footer{
+    background-color: #CCCCCC;
+}
