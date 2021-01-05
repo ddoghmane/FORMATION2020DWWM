@@ -1,10 +1,13 @@
 <?php
 
-$var = 1;
+$var = 3;
+$varEqualOne = 1 == $var;
+$varEqualTwo = 2 == $var;
 
 switch(true){
-    case $var ==1;
-    case $var ==2;
+    case $varEqualOne ==1;
+break;
+    case $varEqualTwo ==2;
     echo"var :2";
     break;
     default:

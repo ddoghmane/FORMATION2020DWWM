@@ -1,6 +1,6 @@
 <?php
 
-$arr = ['Orange','Citron','Mandarine'];
+$arr = [ge','Citron','Mandarine'];
 
 foreach ($arr as & $item){
 
