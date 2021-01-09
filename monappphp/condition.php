@@ -1,7 +1,7 @@
 <?php
 $var = 3;
 $varEqualOne = 1 == $var;
-$varEqualTwo = 2 == $var;
+$varEqualTwo = 2 == $var;//sortir les conditions ds une variable
 
 
 if($varEqualOne) {
@@ -12,4 +12,4 @@ if($varEqualOne) {
 }
 
 
-//PSR
+//PSR :norme php
