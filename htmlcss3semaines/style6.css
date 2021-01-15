@@ -1,0 +1,15 @@
+div,span{
+    
+   background:yellow;
+    width: 50%;
+    height: 100px;
+    margin: 50px
+}
+
+div{
+    
+    display:inline
+}
+/*
+mon commentaire
+*\
