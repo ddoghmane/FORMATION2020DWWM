@@ -1,0 +1,26 @@
+input , textarea{
+    display: block;
+    margin-bottom: 20px;
+    
+    
+}
+input[type="text"]{
+    
+  width: 500px;
+    height: 30px
+        background:red;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+    
+    
+}
+textarea{
+    
+    min-width: 500px;
+    min-height: 300px;
+    max-height: 300px;
+    max-width: 500;
+}
