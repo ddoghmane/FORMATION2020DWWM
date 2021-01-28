@@ -25,7 +25,9 @@ var selectedObject={
 console.log(selectedObject);//undefined
 selectedObject=null;
 console.log(selectedObject);
-addition(5,7);
+
+
+addition(5,7);//hosting hisser
 function addition(a,b){
     console.log(a+b)
 }
