@@ -2,4 +2,4 @@
 do
 {
 $n = rand(1,100); echo $n,"&nbsp; / "; }
-while($n%7!=0); e?>
+while($n%7!=0); e

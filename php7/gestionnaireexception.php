@@ -9,4 +9,4 @@ try  {
     echo "__toString :",$except->__toString(),"<hr>";  }
     finally {
     echo "L'exception a &#233;t&#233; g&#233;r&#233;e, le script continue<hr/>"; }
-    echo "Vraie Fin";
+    echo "Vraie Fin";?>

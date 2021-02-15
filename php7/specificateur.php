@@ -13,7 +13,7 @@ for ($i = 1; $i < 4; $i++) {
     echo sprintf("%'_20.2f %'_22.2f %'_20.2f <br />", $ht[$i], $ht[$i] * 0.196, $ht[$i] * 1.196);
     $total += $ht[$i];
 }
-echo str_repeat("*", 71), "<br />";
+echo str_repeat("*", 71), "<br />";widt
 echo sprintf(
     "%'_20.2f %'_22.2f %'_20.2f <br />",
     $total,

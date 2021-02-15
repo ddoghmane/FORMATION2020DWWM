@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <style>
+        div#menu {
+            width: 15em;
+        }
+
+        div#menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        div#menu ul.menu1>li {
+            background-color: #363;
+            color: #FFC
+        }
+
+        div#menu ul.menu2>li {
+            background-color: #696;
+            color: #FFC
+        }
+
+        div#menu ul.menu3>li {
+            background-color: #9C9;
+            color: #000
+        }
+
+        div#menu div {
+            font-family: sans-serif;
+            font-weight: bold;
+            padding: 0.5em
+        }
+
+        div#menu div.button {
+            border: 1px solid transparent;
+            font-weight: normal
+        }
+
+        div#menu div.button:hover {
+            border-color: #363;
+            cursor: pointer
+        }
+
+        div#menu div.button:active {
+            background-color: #CFC
+        }
+    </style>
+</head>
+
+<body>
+    <div id='menu'>
+        <ul class='menu1'>
+
+            <li>
+
+                <div>Les hébergements</div>
+                <ul class='menu2'>
+                    <li>
+                        <div>Emplacements</div>
+                        <ul class='menu3'>
+                            <li>
+                                <div class='button'>
+                                    Sans électricité</div>
+                            </li>
+                            <li>
+                                <div class='button'>Avec électricité</div>
+                            </li>
+                            <li>
+                                <div class='button'>Camping-car</div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div>Locations</div>
+                        <ul class='menu3'>
+                            <li>
+                                <div class='button'>
+                                    Lodge</div>
+                            </li>
+                            <li>
+                                <div class='button'>Mobile Home</div>
+                            </li>
+                            <li>
+                                <div class='button'>Chalet</div>
+                            </li>
+                        </ul>
+                    </li>
+                    </ul>
+            </li>
+        </ul>
+    </div>
+   
+   
+
+</body>
+
+</html>
