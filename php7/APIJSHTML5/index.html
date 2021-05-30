@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dessiner avec la méthode fillRect()</title>
+</head>
+<body> 
+     <canvas id="dessin" width="300" height="300">
+          Désolé,votre navigateur ne prend pas en charge l’élément canvas.
+        </canvas>
+        <script>
+        var canvas = document.getElementById("dessin");
+        var contexte = canvas.getContext("2d");
+        // Création de la première oreille à gauche
+        contexte.fillRect(50,30,10,10);
+        // Création de la deuxième oreille à droite
+        contexte.fillRect(70,30,10,10);
+        // Création de la tête
+        contexte.fillRect(40,40,50,50);
+        // Création du corps
+        contexte.fillRect(90,90,150,80);
+        // Création du premier pied  avant
+        contexte.fillRect(110,170,15,80);
+        // Création du deuxième pied avant
+        contexte.fillRect(130,170,15,80);
+        // Création du premier pied arrière
+        contexte.fillRect(180,170,15,80);
+        // Création du deuxième pied arrière
+        contexte.fillRect(200,170,15,80);
+        </script>
+        </body>
+        </html>
+         
+
+

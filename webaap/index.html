@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        var g=100; //Variable globale
+
+        function toto()
+        {
+            var 1=150;//Variable locale
+        console.log("toto g=",g);
+        console.log("toto l =",l);
+        
+        }
+        toto();
+        console.log("global g=",g);
+        console.log("global 1=",1);//Erreur
+    </script>
+</body>
+</html>

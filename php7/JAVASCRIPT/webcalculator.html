@@ -1,0 +1,17 @@
+a: <input type ="text" id ="a" value ="" />
+b: <input type ="text" id ="b" value ="" />
+=
+<span id ="result" ></span>
+<br>
+<input type ="button" value ="+" onClick ="doAdd()" />
+<script type ="text/javascript" >
+function doAdd(){
+var aObj = document.getElementById( "a" );
+var bObj = document.getElementById( "b" );
+var resultObj = document.getElementById( "result" );
+var a = parseInt( aObj.value); // Convertir une chaîne en entier
+var b = parseInt( bObj.value);
+resultObj.innerHTML = a + b;
+}
+</script> 
+

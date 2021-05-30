@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+g=100;//Variable globale
+l=200;//Autre variable globale
+
+function toto()
+{
+    l=150;//Variable qui sera aussi globale !
+    console.log("toto g=",g);
+    console.log("toto 1=",1);
+}
+toto();
+console.log("global g=",g);
+console.log("global l =",l);
+    </script>
+</body>
+</html>
