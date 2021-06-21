@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CLASS</title>
+    <meta charset="utf-8"></meta>
+    <style>
+        div.button {
+            font-family: sans-serif;
+            font-weight: bold;
+            border: 1px solid #000;
+            padding: 0, 5em;
+            margin: 1em auto 1em auto;
+            width: 10em;
+            text-align: center;
+            background-color: #69A;
+            color: #CCC;
+        }
+        
+        div.activeButton {
+            background-color: #069;
+            color: #FFF;
+        }
+        
+        div.activeButton:hover {
+            cursor: pointer;
+            filter: brightness(1.1);
+        }
+        
+        div.activeButton:active {
+            filter: brightness(1.2);
+        }
+    </style>
+</head>
+<div class="button activeButton">Bouton actif</div>
+<div class="button">Bouton inactif</div>
+
+</html>
