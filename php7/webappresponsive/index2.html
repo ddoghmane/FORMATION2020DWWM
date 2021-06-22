@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GRID2</title>
+    <meta charset='utf-8'></meta>
+    <style>
+        div#page {
+            display: grid;
+            grid-template-columns: 50% 2em 1fr 2fr;
+            grid-template-rows: 3em 4em 4em 4em;
+            grid-column-gap: 0.5em;
+            grid-row-gap: 0.5em;
+        }
+        
+        div#page div {
+            border: 1px solid #999;
+        }
+        
+        div#a {
+            background-color: #FC9;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        
+        div#b {
+            background-color: #FC9;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        
+        div#c {
+            background-color: #FC9;
+            grid-row: 2/4;
+        }
+        
+        div#d {
+            background-color: #FC9;
+            grid-column: 3/5;
+        }
+        
+        div#e {
+            background-color: #FC9;
+            grid-row: 4/5;
+            grid-column: 3;
+        }
+        
+        div#f {
+            background-color: #FC9;
+            grid-row: 4/5;
+            grid-column: 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='page'>
+        <div id='a'>A</div>
+        <div id='b'>B</div>
+        <div id='c'>C</div>
+        <div id='d'>D</div>
+        <div id='e'>E</div>
+        <div id='f'>F</div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
