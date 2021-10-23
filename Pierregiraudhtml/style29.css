@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-color: #0AE;
+}
+
+p {
+    background-color: #0EA;
+}
+
+.bloc-centre {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.texte-centre {
+    text-align: center;
+}
+
+.conteneur {
+    width: 90%;
+}

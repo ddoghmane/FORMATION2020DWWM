@@ -1,0 +1,9 @@
+#p1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+#p2 {
+    border: 2px solid pink;
+}

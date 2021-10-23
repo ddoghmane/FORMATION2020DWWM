@@ -1,0 +1,19 @@
+h1 {
+    text-decoration: underline;
+}
+
+.p1 {
+    text-decoration: underline overline red;
+}
+
+.p2 {
+    text-decoration: overline dashed;
+}
+
+.p3 {
+    text-decoration: underline wavy;
+}
+
+a {
+    text-decoration: none;
+}

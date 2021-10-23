@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    background-color: purple;
+    color: white;
+}
+
+.conteneur {
+    width: 80%;
+}
+
+#cp {
+    margin: 0 auto;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.fondjaune {
+    background-color: yellow;
+}
+
+.noir {
+    color: black;
+}

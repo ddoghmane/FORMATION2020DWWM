@@ -1,0 +1,27 @@
+.conteneur {
+    background-color: lightblue;
+    color: hsla(300, 100%, 25%, 60%);
+    border: 5px solid purple;
+}
+
+h1,
+p,
+li {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+h1 {
+    background-color: lightblue;
+    color: rgb(128, 0, 128);
+    border: 5px solid rgba(128, 0, 128, );
+}
+
+.p1 {
+    color: rgba(128, 0, 128, 0.6);
+}
+
+.p2 {
+    background-color: lightblue;
+    color: rgba(128, 0, 128, 0.6);
+}

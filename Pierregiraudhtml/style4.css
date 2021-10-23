@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    color: white;
+    background-color: purple;
+    width: 80%;
+    margin: 0 auto;
+}

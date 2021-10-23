@@ -1,0 +1,14 @@
+h1 {
+    color: hsl(45, 100%, 60%);
+}
+
+.p1 {
+    color: hsl(150, 50%, 50%);
+}
+
+
+/*Teinte a 300 ds les rose ,saturation a 50% et luminosité a 50%*/
+
+.p2 {
+    color: hsl(300, 50%, 50%);
+}

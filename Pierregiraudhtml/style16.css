@@ -1,0 +1,20 @@
+p {
+    font-size: 1em
+}
+
+.p1 {
+    word-spacing: 0.5em;
+}
+
+.p2 {
+    word-spacing: 1em;
+}
+
+.p3 {
+    word-spacing: -0.1em;
+}
+
+.p4 {
+    word-spacing: -1.3em;
+    text-align: center;
+}

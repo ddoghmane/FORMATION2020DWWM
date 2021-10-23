@@ -1,0 +1,12 @@
+h1 {
+    text-indent: -50px;
+}
+
+.p1 {
+    text-indent: 20px;
+}
+
+.p2 {
+    text-indent: 20%;
+    /*De l'élément parent cad du body*/
+}

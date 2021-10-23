@@ -1,0 +1,13 @@
+p {
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.p2 {
+    padding: 30px 10px;
+}
+
+.p3 {
+    padding-left: 80px;
+    padding-bottom: 50px;
+}

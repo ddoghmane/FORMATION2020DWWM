@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-color: #0AE;
+}
+
+p {
+    background-color: #0EA;
+    width: 80%;
+    margin: 0 auto;
+}
