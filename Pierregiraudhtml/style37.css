@@ -1,0 +1,12 @@
+span {
+    width: 200px;
+    background-color: #0CC;
+}
+
+.bloc {
+    display: block;
+}
+
+.ib {
+    display: inline-block;
+}

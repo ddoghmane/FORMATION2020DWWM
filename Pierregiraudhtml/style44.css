@@ -1,0 +1,46 @@
+p {
+    background-color: blueviolet;
+}
+
+.conteneur {
+    background-color: #0AF;
+    border: 1px solid black;
+    margin: 10px 0px;
+    /*10px de marge haute et basse*/
+}
+
+.interne {
+    background-color: #DD6;
+}
+
+.w50 {
+    width: 150px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.h50 {
+    height: 150px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.gauche {
+    float: left;
+}
+
+.droite {
+    float: right;
+}
+
+.cleared {
+    clear: left;
+}

@@ -1,0 +1,35 @@
+p {
+    background-color: #0FA;
+}
+
+.conteneur {
+    background-color: #0AF;
+    border: 1px solid black;
+    margin: 10px 0px;
+}
+
+.interne {
+    background-color: #DD6;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.h150 {
+    height: 150px;
+}
+
+.gauche {
+    float: left;
+}
+
+.droite {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

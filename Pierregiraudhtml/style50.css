@@ -1,0 +1,9 @@
+.info {
+    background-color: burlywood;
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+}

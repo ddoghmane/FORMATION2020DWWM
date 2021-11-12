@@ -2,5 +2,5 @@ p {
     display: list-item;
     list-style-type: circle;
     list-style-position: inside;
-    background-color: #0CC;
+    background-color: violet;
 }

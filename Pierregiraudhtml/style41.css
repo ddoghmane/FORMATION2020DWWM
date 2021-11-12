@@ -1,0 +1,32 @@
+p {
+    background-color: #0CC;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.bleu {
+    background-color: #0AF;
+}
+
+.vert {
+    background-color: #0FA;
+}
+
+.relatif {
+    position: relative;
+}
+
+.decale {
+    right: 80px;
+    top: 25px;
+}
+
+.z100 {
+    z-index: 100;
+}

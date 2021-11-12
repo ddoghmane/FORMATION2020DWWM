@@ -1,0 +1,15 @@
+.flottant {
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: #0AF;
+}
+
+div {
+    height: 30px;
+    background-color: #0FA;
+}
+
+p {
+    background-color: #EE6;
+}

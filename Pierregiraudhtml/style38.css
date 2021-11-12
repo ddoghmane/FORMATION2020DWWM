@@ -1,0 +1,11 @@
+p {
+    background-color: #0CC;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.nonaffiche {
+    display: none;
+}
